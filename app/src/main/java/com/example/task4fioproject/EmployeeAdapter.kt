@@ -25,7 +25,6 @@ class EmployeeAdapter(private val dataSet: List<Employee>) :
             .from(parent.context)
             .inflate(R.layout.recyclerview_item_layout, parent, false)
         return ViewHolder(view)
-
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
